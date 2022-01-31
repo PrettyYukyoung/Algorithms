@@ -6,3 +6,8 @@ for x in range(n):
     title.append(q)
     number.append(w)
 
+for i in range(n):
+    if min(number) == number[i]:
+        print(title[i])
+    
+
